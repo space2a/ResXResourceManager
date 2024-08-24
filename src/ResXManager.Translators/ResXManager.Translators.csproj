@@ -50,6 +50,7 @@
     <ProjectReference Include="..\ResXManager.Model\ResXManager.Model.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" />
     <PackageReference Include="Fody" PrivateAssets="all" />
     <PackageReference Include="ILMerge.Fody" PrivateAssets="all" />
     <PackageReference Include="Microsoft.DeepDev.TokenizerLib" />
